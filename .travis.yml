@@ -8,3 +8,5 @@ services:
 
   script:
     - docker run -e CI=true rommek1985/docker-react npm run test -- --coverage
+
+    
